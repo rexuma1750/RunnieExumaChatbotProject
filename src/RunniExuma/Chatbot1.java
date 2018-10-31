@@ -16,19 +16,26 @@ public class Chatbot1 {
             response = "Tell me more about your pets!";
 
         }
-     if (statement.indexOf("Mr. Folwell")) >= 0
+     else if (statement.indexOf("Mr. Folwell")) >= 0
                 || statement.indexOf ("Ms. Worrell") >= 0
                 || statement.indexOf ("Mr. Ree") >= 0
                 || statement.indexOf ("Mr. Silverman") .= 0)
         {
             response = "They sound like an amazing teacher. That's nice!";
         }
-        if (statement.indexOf("politics")) >= 0
+        else if (statement.indexOf("politics")) >= 0
                 || statement.indexOf ("election") >= 0
                 || statement.indexOf ("vote") >= 0
                 || statement.indexOf ("Trump") .= 0)
         {
             response = "What are your views on the current state of politics in the U.S.?";
+        }
+       else if (statement.indexOf("college")) >= 0
+                || statement.indexOf ("applications") >= 0
+                || statement.indexOf ("SAT") >= 0
+                || statement.indexOf ("essays") .= 0)
+        {
+            response = "How are you handling the college application process?";
         }
         else
         {
